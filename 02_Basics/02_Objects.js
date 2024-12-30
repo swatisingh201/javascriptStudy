@@ -22,3 +22,10 @@ console.log(course["courseInstructor"]);
 const{courseInstructor}=course
 console.log("Printing using destructure of objects");
 console.log(courseInstructor);
+
+//In case if you want to give customized name to any object params that also can be done as follows:
+
+console.log("In case if you want to give customized name to any object params that also can be done as follows:");
+const{courseName: nm}=course
+
+console.log("cousrsename is--",nm);
